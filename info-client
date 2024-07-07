@@ -1,0 +1,18 @@
+$ pip install 
+Usage
+First, get your API token.
+
+
+
+>>> from e-bank import e-Bank
+>>> client = FioBank(token='...', decimal=True)
+Account information:
+
+>>> client.info()
+{
+  'currency': 'XXX',
+  'account_number_full': 'XXXXXXXXXX/2010',
+  'balance': Decimal('42000.00'),
+  'account_number': 'XXXXXXXXXX',
+  'bank_code': '2024'
+}
