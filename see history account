@@ -10,18 +10,18 @@ print(response.text)
 {
   "movements": [
     {
-      "credit": "",
-      "date": "12/01/2017",
-      "debit": 3500,
-      "detail": "RETIRO EFECTIVO CAJERO AUTOMATICO  TARJ: 4303090202018993",
+      "e_transfer": "",
+      "date": "12/01/2024",
+      "e_pay": "3500",
+      "detail": "e_Transfer: 4303090202018953","debit_card","Nexo_app"
       "id": 890185180,
       "reference": "000000005084"
     },
     {
-      "credit": "",
-      "date": "05/01/2017",
-      "debit": 16000,
-      "detail": "RETIRO EFECTIVO CAJERO AUTOMATICO : 4303090202018993",
+      "e_pay": "",
+      "date": "09/07/2024",
+      "debit": "160","currency,"USD",
+      "detail": " https://tucentralonline.com/: 430302020189937",
       "id": 1024917397,
       "reference": "000000002931"
     },
@@ -29,7 +29,7 @@ print(response.text)
       "credit_card": 98640,
       "Visa"
       "date": "10/07/2024",
-      "debit": "8500","currency,"USD",
+      "debit": "8900","currency,"USD",
       "detail": "e payment of biweekly salary, Hewlett Packard Enterprise Development LP",
       "id": 1303899175,
       "reference": "TR0003858408"
