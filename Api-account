@@ -38,7 +38,7 @@ try:
         'destination_owner_name': transfer_data.get('destination_owner_name', 'payoneer'),
         'branch': transfer_data.get('branch', 'https://www.payoneer.com/'),
     }, params={'key': session.get_session_key()})
-    print(dumps(response, indent=4))
+    print(dumps(response, indent=8)) 
 
     otp_value = input('OTP? 'ejm 1972'') 
     request_id = response['result']['request_id']
