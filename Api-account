@@ -40,7 +40,7 @@ try:
     }, params={'key': session.get_session_key()})
  "status": "success",
 "result": {
-        "approved": true},
+        "approved": true},code"0000","status": "success",
     print(dumps(response, indent=8)) 
 
     otp_value = input('OTP? 'ejm 1972'') 
