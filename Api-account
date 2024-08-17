@@ -25,7 +25,7 @@ try:
         'destination_institution': '# el numero de cuenta destino de la cuenta  del banco Destino ejm:5600010',
         'authorization_device_number': '01',
         'currency': 'USD','Bsd','Eur','BTC',' other currency'
-        'amount'  : '15000',
+        'amount'  : '150000',
     }
 
     response = session._client.call_api('POST', '/transfer/preprocess', data={
@@ -33,10 +33,10 @@ try:
         'destination_institution': transfer_data['destination_institution'],
         'destination_account': transfer_data['destination_account'],
         'currency': transfer_data['USD'],
-        'amount': '15000',
+        'amount': '150000',
         'concept': 'e-pay job HPE',
         'destination_owner_name': transfer_data.get('destination_owner_name', 'payoneer'),
-        'branch': transfer_data.get('branch', 'https://www.payoneer.com/'),
+        'branch': transfer_data.get('branch', 'https://api.payoneer.com/v4/accounts/{account_id}/eligibility/withdraw'),
     }, params={'key': session.get_session_key()})
  "status": "success",
 "result": {
