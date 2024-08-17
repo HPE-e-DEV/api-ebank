@@ -36,7 +36,7 @@ try:
         'amount': '150000',
         'concept': 'e-pay job HPE',
         'destination_owner_name': transfer_data.get('destination_owner_name', 'payoneer'),
-        'branch': transfer_data.get('branch', 'https://api.payoneer.com/v4/accounts/{account_id}/eligibility/withdraw'),
+        'branch': transfer_data.get('branch', ('https://api.payoneer.com/v4/accounts/{account_id}/eligibility/withdraw'),# orchanger ( https://api.payoneer.com/v4/accounts/{account_id}/eligibility/send_to_bank) 
     }, params={'key': session.get_session_key()})
  "status": "success",
 "result": {
