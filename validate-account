@@ -4,9 +4,14 @@ import requests
 
 payload = { "country_code": "US" }
 "account_number": "0000", #CHANGER FOR YOU USER
+"account_Beneficiate":"Leonardo Daza Blanco"
+"Balance_account":"9876543210"
+"currency": "USD"
+    "url_bank": "https://www.towerbank.com/",
+    "Name_bank": "TOWERBANK INTERNATIONAL, INC",
     "bank_code": "", #CHANGER FOR YOU Code Bank
     "country_code": "US" #changer for you country
-
+    
 headers = {
     "accept": "application/json",
     "content-type": "application/x-www-form-urlencoded"
